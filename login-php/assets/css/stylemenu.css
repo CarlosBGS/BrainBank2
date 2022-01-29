@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{ 
+    font-family: sans-serif;   
+    background-image: url(../img/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: 120vw 400vh;
+    width: 100%;
+    height: 100%;
+    font-size= 14px;
+    background-position: center;
+    display: flex;
+    overflow-x: hidden;
+
+
+}
+#logo{
+    position: fixed;
+    padding: 10px;
+    background-color: #F5F3F3CC;
+    margin: 10px;
+    border-radius: 10px;
+
+}
+#titulologo{
+    font-size: 20px;
+}
+.sair h2{
+    padding: 20px;
+    background-color: #F5F3F3CC;
+    
+    border-radius: 10px;
+}
+.sair{
+    position: fixed;
+    margin-left: 87.5vw;
+    margin-top: 10px;
+    
+}
+.sair a{
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    background-image: linear-gradient(to left,#ee8989, #f7aaaa);
+    color: #484747;
+    margin-top: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 1px;
+    padding-right: 1px;
+    border-radius: 30px;
+}
+.sair a:hover{
+    border: 1px solid black;
+}
+main{
+
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+.menu{
+    align-items: center;
+    background-color: #F5F3F3CC;
+    border-radius: 30px;
+    padding: 55px;
+    font-size: 18px;
+}
+.menu h1{
+    margin-bottom: 40px;
+}
+.menu a{
+    text-decoration: none;
+    background-image: linear-gradient(to left,#ee8989, #f7aaaa);
+    padding: 10px;
+    text-align: center;
+    color: #484747;
+    border: 1px solid #F5F3F3CC;
+    border-radius: 30px;
+}
+.menu a:hover{
+    border: 1px solid black;
+}
+
+#gp{
+    margin-left: 50px;
+}

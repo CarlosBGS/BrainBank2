@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{    
+    background-image: url(../img/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: 120vw 400vh;
+    width: 100%;
+    height: 100%;
+    font-size= 14px;
+    background-position: center;
+    display: flex;
+    overflow-x: hidden;
+
+
+}
+header{
+    background-color: red;
+    padding: 20px;
+    display: none;
+    
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+#logo{
+    position: fixed;
+    padding: 10px;
+    background-color: #F5F3F3CC;
+    margin: 10px;
+    border-radius: 10px;
+
+}
+#titulologo{
+    font-size: 20px;
+}
+.sair h2{
+    padding: 20px;
+    background-color: #F5F3F3CC;
+    
+    border-radius: 10px;
+}
+.sair{
+    position: fixed;
+    margin-left: 87.5vw;
+    margin-top: 10px;
+    
+}
+.sair a{
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    background-image: linear-gradient(to left,#ee8989, #f7aaaa);
+    color: #484747;
+    margin-top: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 1px;
+    padding-right: 1px;
+    border-radius: 30px;
+}
+.sair a:hover{
+    border: 1px solid black;
+}
+main{
+    
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+
+}
+.form{
+    margin-top: 40px;
+    padding: 55px;
+    
+    background-color: #F5F3F3CC;
+}
+.form h1{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 18px;
+    text-align: center;
+    background-image: linear-gradient(to left,#ee8989, #f7aaaa);
+    border-radius: 30px;
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+.form h2{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 5px;
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 5px;
+}
+.form select{
+    width: 400px;
+    margin-top: 4px;
+    padding: 6px;
+    border-radius: 10px;
+    border: 1px solid #F5F3F3CC;
+}
+.form select:hover{
+    border: 1px solid black;
+}
+.form select:active{
+    border: 1px solid #ee8989;
+}
+#stem{
+    margin-top: 5px;
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    font-size: 14px;
+    resize: none;
+    border-radius: 10px;
+    border: none;
+}
+#stem:hover{
+
+    border: 1px solid #ee8989;
+}
+}
+.cal{
+    
+    display: block;
+    background-color: red;
+}
+.alternative{
+    display: block;
+    width: 400px;
+    height: 100px;
+    resize: none;
+    border: 1px solid #F5F3F3CC;
+    font-size: 14px;
+    border-radius: 10px;
+}
+.alternative:hover{
+    border: 1px solid #ee8989;
+}
+#submit{
+    text-align: center;
+    font-size: 16px;
+    background-image: linear-gradient(to left,#ee8989, #f7aaaa);
+    color: #484747;
+    margin-top: 5px;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 30px;
+    border: 0;
+
+}
+#submit:hover{
+    border: 1px solid black;
+    cursor: pointer;
+}
+.menu{
+    
+    width: 200px;
+}
